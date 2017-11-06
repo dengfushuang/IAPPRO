@@ -1,0 +1,18 @@
+--cpu Cortex-M3
+".\objects\debug_frmwrk.o"
+".\objects\lpc177x_8x_crc.o"
+".\objects\lpc177x_8x_pinsel.o"
+".\objects\lpc177x_8x_uart.o"
+".\objects\lpc177x_8x_clkpwr.o"
+".\objects\lpc177x_8x_iap.o"
+".\objects\lpc177x_8x_systick.o"
+".\objects\lpc177x_8x_gpio.o"
+".\objects\main.o"
+".\objects\startup_lpc17xx.o"
+".\objects\core_cm3.o"
+".\objects\system_lpc177x_8x.o"
+".\objects\cmd_process.o"
+--strict --scatter ".\Objects\IAPBOOT.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\IAPBOOT.map" -o .\Objects\IAPBOOT.axf

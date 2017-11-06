@@ -1,0 +1,6 @@
+--cpu Cortex-M3 -g --apcs=interwork 
+-I E:\Work\IAPPRO\Project\RTE
+-I D:\Keil\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include
+-I D:\Keil\ARM\CMSIS\Include
+--pd "__UVISION_VERSION SETA 518" --pd "LPC177x_8x SETA 1"
+--list .\listings\startup_lpc17xx.lst --xref -o .\objects\startup_lpc17xx.o --depend .\objects\startup_lpc17xx.d "..\Startup\startup_LPC17xx.s"

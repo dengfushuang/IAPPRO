@@ -1,0 +1,17 @@
+.\objects\ssp0.o: ..\Hardware\ssp0\ssp0.c
+.\objects\ssp0.o: ..\Hardware\ssp0\ssp0.h
+.\objects\ssp0.o: ..\User\includes.h
+.\objects\ssp0.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\ssp0.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\ssp0.o: ..\Libraries\Core\LPC177x_8x.h
+.\objects\ssp0.o: ..\Libraries\Core\core_cm3.h
+.\objects\ssp0.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\ssp0.o: ..\Libraries\Core\system_LPC177x_8x.h
+.\objects\ssp0.o: ..\Drivers\include\lpc177x_8x_ssp.h
+.\objects\ssp0.o: ..\Drivers\include\lpc_types.h
+.\objects\ssp0.o: ..\Drivers\include\LPC177x_8x_clkpwr.h
+.\objects\ssp0.o: ..\Hardware\uart\uart0.h
+.\objects\ssp0.o: ..\User\iap_types.h
+.\objects\ssp0.o: ..\Hardware\ssp0\ssp0.h
+.\objects\ssp0.o: ..\Hardware\uart\queue.h
+.\objects\ssp0.o: ..\Hardware\W25Q32\flash.h

@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Drivers\include -I ..\Hardware\uart -I ..\Libraries\Core -I ..\Libraries\Device\include -I ..\User -I ..\Hardware\ssp0 -I ..\Hardware\W25Q32 -I ..\IAPLLIB
+-I E:\Work\IAPPRO\Project\RTE
+-I D:\Keil\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include
+-I D:\Keil\ARM\CMSIS\Include
+-D__UVISION_VERSION="518" -DLPC177x_8x
+-o .\objects\lpc_uart.o --omf_browse .\objects\lpc_uart.crf --depend .\objects\lpc_uart.d "..\IAPLLIB\lpc_uart.c"
